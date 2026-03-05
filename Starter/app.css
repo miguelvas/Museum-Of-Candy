@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #f5d9d5 !important;
+    position: sticky;
+    transition: background-color 0.5s ease-in-out;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar.scrolled {
+    background-color: #e4bee0 !important;
+    transition: background-color 0.5s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover{
+    color: crimson;
+}
+
+.section {
+    background-color: #f5d9d5;
+}
+
+span {
+    color: crimson;
+}
+
+.second-text {
+    color: #f59dba !important;
+}
